@@ -1,6 +1,6 @@
 use crate::{
     pow,
-    proto::{VecnodMessage, RpcBlock},
+    proto::{RpcBlock, VecnodMessage},
     swap_rust::WatchSwap,
     Error, ShutdownHandler,
 };

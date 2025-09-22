@@ -1,7 +1,7 @@
 use crate::{
     miner::MinerManager,
     proto::{
-        vecnod_message::Payload, rpc_client::RpcClient, GetBlockTemplateRequestMessage, GetInfoRequestMessage,
+        rpc_client::RpcClient, vecnod_message::Payload, GetBlockTemplateRequestMessage, GetInfoRequestMessage,
         VecnodMessage,
     },
     Error, ShutdownHandler,

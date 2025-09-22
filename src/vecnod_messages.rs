@@ -1,8 +1,8 @@
 use crate::{
     pow::{self, HeaderHasher},
     proto::{
-        vecnod_message::Payload, GetBlockTemplateRequestMessage, GetInfoRequestMessage, VecnodMessage,
-        NotifyBlockAddedRequestMessage, NotifyNewBlockTemplateRequestMessage, RpcBlock, SubmitBlockRequestMessage,
+        vecnod_message::Payload, GetBlockTemplateRequestMessage, GetInfoRequestMessage, NotifyBlockAddedRequestMessage,
+        NotifyNewBlockTemplateRequestMessage, RpcBlock, SubmitBlockRequestMessage, VecnodMessage,
     },
     Hash,
 };

@@ -19,11 +19,11 @@ use crate::{
 
 mod cli;
 mod client;
-mod vecnod_messages;
 mod miner;
 mod pow;
 mod swap_rust;
 mod target;
+mod vecnod_messages;
 
 pub mod proto {
     #![allow(clippy::derive_partial_eq_without_eq)]

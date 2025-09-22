@@ -9,7 +9,7 @@ A Rust binary for file encryption to multiple participants.
 With Rust's package manager cargo, you can install vecno-cpu-miner via:
 
 ```sh
-cargo install vecno-cpu-miner
+cargo build --release --all  
 ```
 
 ### From Binaries
