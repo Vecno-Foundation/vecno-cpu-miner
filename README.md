@@ -54,10 +54,10 @@ This will run the miner on all the available CPU cores.
 
 # Devfund
 
-**NOTE: This feature is off by default** `<br>`
-The devfund is a fund managed by the Vecno community in order to fund Vecno development `<br>`
-A miner that wants to mine a percentage into the dev-fund can pass the following flags: `<br>`
-`vecno-cpu-miner --mining-address= XXX --devfund=vecno:qqtsqwxa3q4aw968753rya4tazahmr7jyn5zu7vkncqlvk2aqlsdsah9ut65e` `<br>`
+**NOTE: This feature is off by default.**
+The devfund is a fund managed by the Vecno community in order to fund Vecno development
+A miner that wants to mine a percentage into the dev-fund can pass the following flags:
+`vecno-cpu-miner --mining-address= XXX --devfund=vecno:qqtsqwxa3q4aw968753rya4tazahmr7jyn5zu7vkncqlvk2aqlsdsah9ut65e`
 and can pass `--devfund-precent=XX.YY` to mine only XX.YY% of the blocks into the devfund (passing `--devfund` without specifying a percent will default to 1%)
 
 # Donation Address
