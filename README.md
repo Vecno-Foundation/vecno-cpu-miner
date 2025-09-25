@@ -1,6 +1,6 @@
 # Vecno-cpu-miner
 
-A Rust binary for file encryption to multiple participants.
+A Rust binary for file encryption to multiple participants. This miner should only be used for testnet. For mainnet mining please use [vecno-miner](https://github.com/Vecno-Foundation/vecno-miner).
 
 ## Installation
 
