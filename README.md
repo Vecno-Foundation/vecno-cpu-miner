@@ -38,8 +38,6 @@ FLAGS:
     -V, --version                 Prints version information
 
 OPTIONS:
-        --devfund <devfund-address>            Mine a percentage of the blocks to the Vecno devfund [default: Off]
-        --devfund-percent <devfund-percent>    The percentage of blocks to send to the devfund [default: 1]
     -s, --vecnod-address <vecnod-address>      The IP of the vecnod instance [default: 127.0.0.1]
     -a, --mining-address <mining-address>      The Vecno address for the miner reward
     -t, --threads <num-threads>                Amount of miner threads to launch [default: number of logical cpus]
@@ -51,15 +49,3 @@ To start mining you just need to run the following:
 `./vecno-cpu-miner --mining-address vecno:XXXXX`
 
 This will run the miner on all the available CPU cores.
-
-# Devfund
-
-**NOTE: This feature is off by default.**
-The devfund is a fund managed by the Vecno community in order to fund Vecno development
-A miner that wants to mine a percentage into the dev-fund can pass the following flags:
-`vecno-cpu-miner --mining-address= XXX --devfund=vecno:qqtsqwxa3q4aw968753rya4tazahmr7jyn5zu7vkncqlvk2aqlsdsah9ut65e`
-and can pass `--devfund-precent=XX.YY` to mine only XX.YY% of the blocks into the devfund (passing `--devfund` without specifying a percent will default to 1%)
-
-# Donation Address
-
-vecno:qqtsqwxa3q4aw968753rya4tazahmr7jyn5zu7vkncqlvk2aqlsdsah9ut65e
